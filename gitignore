@@ -1,0 +1,15 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Python cache (if you ever add .py helper files)
+__pycache__/
+*.pyc
+
+# Local environments, if someone sets one up instead of using environment.yml
+.venv/
+venv/
+env/
