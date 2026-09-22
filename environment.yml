@@ -1,0 +1,15 @@
+name: hil_tutorials
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pip
+  - jupyter
+  - jupyterlab
+  - notebook
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
