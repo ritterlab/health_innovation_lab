@@ -2,10 +2,10 @@
 
 ## Schedule
 
-| Date | Time | Room | Title | 
-|------|------|------|-------|
-| 19.10.2026  | 11:00 - 13:00 | A-222  | Data Exploration |
-| 22.10.2026  | 11:00 - 13:00 | A-501  | ML Pipeline |
+| Date       | Time          | Room  | Title             |
+|------------|---------------|-------|-------------------|
+| 19.10.2026 | 11:00 – 13:00 | A-222 | Data Exploration  |
+| 22.10.2026 | 11:00 – 13:00 | A-501 | ML Pipeline       |
 
 ## How to start using this material
 
@@ -14,9 +14,12 @@ installation needed), or set them up locally on your own machine.
 
 ### Option A — Google Colab (recommended)
 
-1. Open [`tutorial_1_exploring_data.ipynb`](tutorial_1_exploring_data.ipynb)
-   or [`tutorial_2_ml_pipeline.ipynb`](tutorial_2_ml_pipeline.ipynb) in this
-   repository and click the **"Open in Colab"** badge at the top.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ritterlab/health_innovation_lab/blob/main/tutorial_1_exploring_data.ipynb) Tutorial 1 — Data Exploration
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ritterlab/health_innovation_lab/blob/main/tutorial_2_ml_pipeline.ipynb) Tutorial 2 — ML Pipeline
+
+1. Click a badge above (or open either `.ipynb` file in this repository and
+   click the same badge at the top of the notebook itself).
 2. Sign in with a Google account if prompted.
 3. Run the cells from top to bottom (**Shift + Enter** on each, or
    `Runtime → Run all`). The first code cell in each notebook automatically
@@ -29,21 +32,21 @@ installation needed), or set them up locally on your own machine.
 ### Option B — Running locally
 
 1. Clone this repository:
-   ```bash
-   git clone https://github.com/YOUR-ORG/YOUR-REPO.git
-   cd YOUR-REPO
-   ```
+```bash
+   git clone https://github.com/ritterlab/health_innovation_lab.git
+   cd health_innovation_lab
+```
 2. Create the environment (using [conda](https://docs.conda.io/) /
    [Miniforge](https://github.com/conda-forge/miniforge)):
-   ```bash
+```bash
    conda env create -f environment.yml
    conda activate hil_tutorials
-   ```
+```
    Don't use conda? `pip install jupyterlab numpy pandas matplotlib seaborn scikit-learn` works too.
 3. Start Jupyter:
-   ```bash
+```bash
    jupyter lab
-   ```
+```
 4. Open `tutorial_1_exploring_data.ipynb` and run the cells from top to
    bottom. Since the `data/` folder is already right next to the notebook
    in this repo, the notebook will skip the Colab-only download step
