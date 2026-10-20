@@ -18,7 +18,9 @@ installation needed), or set them up locally on your own machine.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ritterlab/health_innovation_lab/blob/main/tutorial_2_ml_pipeline.ipynb) Tutorial 2 — ML Pipeline
 
-1. Click a badge above (or open either `.ipynb` file in this repository and
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ritterlab/health_innovation_lab/blob/main/tutorial_2_2_images_and_cnn.ipynb) Tutorial 2.2 (optional) — Images, MRI and CNNs
+
+1. Click a badge above (or open `.ipynb` file in this repository and
    click the same badge at the top of the notebook itself).
 2. Sign in with a Google account if prompted.
 3. Run the cells from top to bottom (**Shift + Enter** on each, or
